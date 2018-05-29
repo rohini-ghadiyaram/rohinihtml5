@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+Form design with different controls in html5>
+</title>
+</head>
+<body>
+<form action="" method="post">
+<p> Username:
+<input type="text" name="username" size="15" maxlength="30"/>
+<p>
+Password:
+<input type="password" name="password" size="15" maxlength="30"/>
+</p>
+<p>
+how is this website?
+<textarea name="comments" cols="20" rows="4">Enter your comments..></textarea>
+</p>
+<p> Please select your favorite color below:</p>
+<input type="radio" name="color" value="Red" checked="checked">RED
+<input type="radio" name="color" value="Blue">BLUE
+<input type="radio" name="color" value="Pink">PINK
+</p>
+<p> what are your hobbies?
+<input type="checkbox" name="hobby" value="reading" >READING
+<input type="checkbox" name="hobby" value="writing"> WRITING
+<input type="checkbox" name="hobby" value="singing">SINGING
+<input type="checkbox" name="hobby" value="dancing" >DANCING
+</p>
+<p>On what device you listen to music?
+<select name="device">
+<option value="ipod">Phone</option>
+<option value="radio">Radio</option>
+<option value="computer">Computer</option> 
+
+</p>
+<p> Select one or multiple instruments you can play
+<select name="instruments" size="3" multiple="multiple">
+<option value="Guitar"> Guitar</option>
+<option value="Veena">Veena</option>
+<option value="Key">Keyboard</option>
+<option value="drums">Drums</option>
+</select>
+</p>
+<p>Upload song mp3 format:</p>
+<p><input type="file" name="user-song"/></p>
+<p>subscribe:
+<input type="image" src="subscribe.jpg" width="100" height="20"/>
+<button><img src="add.gif" alt="add" width="10" height="10"/> Add</button>
+<input type="hidden" name="bookmark" value="lyrics"/>
+</p>
+<p>
+<label for="mobile">Mobile:
+<input type="text" name="mobile" required="required"/></label>
+</p>
+<p>
+ENter date:
+<input type="date" name="depart"/>
+</p>
+<p>
+Enter email:
+<input type="email" name="email"/>
+</p>
+<p>
+Enter your website:
+<input type="url" name="website"/>
+</p>
+<p>
+Search:
+<input type="search" name="search" placeholder="Enter keyword"/>
+</p>
+<p>
+<input type="submit" name="submit"/>
+</p>
+</form>
+</body>
+</html>
